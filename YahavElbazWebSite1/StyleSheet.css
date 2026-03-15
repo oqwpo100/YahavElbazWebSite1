@@ -14,10 +14,11 @@ header {
 
 .header_top {
     min-height: 20px;
-    display: flex;
+    color: rgb(96, 177, 239);
+    direction: ltr;
+    text-align: center;
+    width: 100%;
 }
-
-
 
 .main_nav {
     background-color: lightgray;
@@ -62,3 +63,4 @@ aside {
 footer {
     background-color: orange;
 }
+

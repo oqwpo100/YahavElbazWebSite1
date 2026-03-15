@@ -9,17 +9,20 @@
     <meta charset="utf-8" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+	<style>
+
+</style>
 </head>
 <body>
     <form id="form1" runat="server">
     <header>
 		<section class="header_top">				
-				
+				<h1>Game Recommendations</h1>
 		</section>
 			
 		<nav class="main_nav">   	
-			<a href="Default.aspx">דף בית</a>
-			<a href="Page1.aspx">דף 1</a>				
+			<a href="Default.aspx">Home page</a>
+			<a href="TheGames.aspx">Games</a>				
 		</nav>
 	</header>
 		
