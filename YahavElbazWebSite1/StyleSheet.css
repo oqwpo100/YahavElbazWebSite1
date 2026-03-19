@@ -29,7 +29,7 @@ header {
     padding-right: 100px;
 }
 
-    .main_nav a {
+.main_nav a {
         text-decoration: none;
         font-size: 24px;
         color: darkblue;
@@ -52,8 +52,8 @@ main {
     flex: 4;
     color: white;
     padding: 5px 10px;
+    text-align: left
 }
-
 
 aside {
     background-color: gray;
@@ -66,3 +66,6 @@ footer {
     background-color: orange;
 }
 
+.GameImage{
+    width: 200px
+}

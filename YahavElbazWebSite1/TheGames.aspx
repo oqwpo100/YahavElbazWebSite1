@@ -5,7 +5,25 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
+    <figure>
+        <img src="images\Constance.png" alt="Main image of the game constance" class="GameImage"/>
+        <figcaption><a href="">Constance</figcaption>
+    </figure>
+  
+    <figure>
+        <img src="Constance.png" alt="Main image of the game constance" />
+        <figcaption><a href="">Constance</figcaption>
+    </figure>
 
+    <figure>
+
+    </figure>
+
+    <figure>
+    </figure>
+
+    <figure>
+    </figure>
 </asp:Content>
 
 
