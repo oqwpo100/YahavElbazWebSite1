@@ -7,27 +7,27 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
     <div class="dice">
         <figure>
-        <img src="images\Constance.png" alt="Main image of the game constance" class="GameImage"/>
+        <img src="images/GameImages/Constance.png" alt="Main image of the game constance" class="GameImage"/>
         <figcaption><a href="">Constance</a></figcaption>
     </figure>
   
     <figure>
-        <img src="images/Rivals%20of%20Aether.jpg" alt="Main image of the game Rivals of Aether" class="GameImage"/>
+        <img src="images/GameImages/Rivals of Aether.jpg" alt="Main image of the game Rivals of Aether" class="GameImage"/>
         <figcaption><a href="">Rivals of Aether</a></figcaption>
     </figure>
 
     <figure>
-        <img src="images/Smack%20Talk.jpg" alt="Main image of the game Smack Talk" class="GameImage"/>
+        <img src="images/GameImages/Smack Talk.jpg" alt="Main image of the game Smack Talk" class="GameImage"/>
         <figcaption><a href="">Smack Talk</a></figcaption>
     </figure>
 
     <figure>
-        <img src="images/GNOSIA.jpg" alt="Main image of the game GNOSIA" class="GameImage"/>
-        <figcaption><a href="">GNOSIA</a></figcaption>
+        <img src="images/GameImages/GNOSIA.jpg" alt="Main image of the game GNOSIA" class="GameImage"/>
+        <figcaption><a href="GNOSIA.aspx">GNOSIA</a></figcaption>
     </figure>
 
     <figure>
-        <img src="images/Checkmate%20Showdown.jpg" alt="Main image of the game Checkmate Showdown" class="GameImage"/>
+        <img src="images/GameImages/Checkmate Showdown.jpg" alt="Main image of the game Checkmate Showdown" class="GameImage"/>
         <figcaption><a href="">Checkmate Showdown</a></figcaption>
     </figure>
     </div>

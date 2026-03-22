@@ -27,6 +27,7 @@ header {
     min-height: 30px;
     padding-left: 100px;
     padding-right: 100px;
+    text-align: left;
 }
 
 .main_nav a {
@@ -106,4 +107,8 @@ figcaption {
     font-size: 14px;
     color: #333;
     margin-top: 5px;
+}
+
+.OpeningSentence {
+    font-style: italic !important;
 }
