@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head runat="server">
     <title></title>
     <link rel="stylesheet" type="text/css" href="~/StyleSheet.css" />
@@ -20,22 +20,22 @@
 		<nav class="main_nav">
 			<ul class="nav-list">
 			<li class="nav-item">
-				<a href="Default.aspx">Home page</a>
+				<a href="../Default.aspx">Home page</a>
 			</li>
 
 			<li class="nav-item">
-				<a href="TheGames.aspx">Games<span class="arrow">▾</span></a>
+				<a href="../TheGames.aspx">Games<span class="arrow">▾</span></a>
 				<div class="dropdown">
-					<a href="">Constance</a>
-					<a href="">Rivals of Aether</a>
-					<a href="">Smack Talk</a>
-					<a href="GNOSIA.aspx">GNOSIA</a>
-					<a href="">Checkmate Showdown</a>
+					<a href="../GameData/Constance.aspx">Constance</a>
+					<a href="../">Rivals of Aether</a>
+					<a href="../">Smack Talk</a>
+					<a href="../GameData/GNOSIA.aspx">GNOSIA</a>
+					<a href="../">Checkmate Showdown</a>
 					</div>
 			</li>
 
 			<li class="nav-item">
-				<a href="WhoAmI.aspx">Myself</a>
+				<a href="../WhoAmI.aspx">Myself</a>
 			</li>
 			</ul>
 

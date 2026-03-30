@@ -8,7 +8,7 @@
     <div class="dice">
         <figure>
         <img src="images/GameImages/Constance.png" alt="Main image of the game constance" class="GameImage"/>
-        <figcaption><a href="">Constance</a></figcaption>
+        <figcaption><a href="GameData/Constance.aspx">Constance</a></figcaption>
     </figure>
   
     <figure>
@@ -23,7 +23,7 @@
 
     <figure>
         <img src="images/GameImages/GNOSIA.jpg" alt="Main image of the game GNOSIA" class="GameImage"/>
-        <figcaption><a href="GNOSIA.aspx">GNOSIA</a></figcaption>
+        <figcaption><a href="GameData/GNOSIA.aspx">GNOSIA</a></figcaption>
     </figure>
 
     <figure>

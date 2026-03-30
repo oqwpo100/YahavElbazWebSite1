@@ -1,5 +1,9 @@
 ﻿html {
-    direction: rtl;
+    direction: ltr;
+}
+
+body {
+    direction: ltr;
 }
 
 header, .center, footer {
