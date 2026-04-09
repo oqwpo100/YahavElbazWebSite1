@@ -1,4 +1,5 @@
-﻿html {
+﻿@import url('StyleSheet.css');
+html {
     direction: ltr;
 }
 
@@ -20,7 +21,7 @@ header {
 
 .header_top {
     min-height: 20px;
-    color: black;
+    color: rgb(4,200,222);
     direction: ltr;
     text-align: center;
     width: 100%;
