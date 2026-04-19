@@ -6,7 +6,10 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
     <h1>Description</h1>
-    <p>Here in this sit <a href="WhoAmI.aspx">I</a> will recommend unpopular video games that deserve more love from the community.</p>   
+    <p>Here in this sit <a href="WhoAmI.aspx">I</a> will recommend unpopular video games that deserve more love from the community.</p>
+    <button id="goToGamesButton" type="button" onclick="window.location.href='../TheGames.aspx'">
+       Go to The Games
+   </button> 
 </asp:Content>
 
 

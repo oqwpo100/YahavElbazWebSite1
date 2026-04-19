@@ -5,26 +5,36 @@ html {
 
 body {
     direction: ltr;
+    background-color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, Arial, sans-serif;
 }
 
 header, .center, footer {
     min-height: 80px;
-    border: 2px solid blue;
+    border: 2px solid #a855f7;
 }
 
 header {
-    background-color: white;
+    background-color: #111;
     margin-bottom: 5px;
     display: flex;
     flex-direction: column;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #a855f7;
 }
 
 .header_top {
     min-height: 20px;
-    color: rgb(4,200,222);
+    color: #a855f7;
     direction: ltr;
     text-align: center;
     width: 100%;
+    padding: 12px 0 8px;
+    letter-spacing: 1px
 }
 
 .header_date {
@@ -44,12 +54,13 @@ header {
 }
 
 .main_nav {
-    background-color: lightgray;
+    background-color: #1a1a1a;
     min-height: 30px;
     padding-left: 100px;
     padding-right: 100px;
     text-align: left;
     direction: ltr;
+    border-top: 1px solid #2a2a2a;
 }
 
 .nav-list {
@@ -62,8 +73,8 @@ header {
 
 .main_nav .nav-item {
     text-decoration: none;
-    font-size: 24px;
-    color: darkblue;
+    font-size: 18px;
+    color: #aaa;
     margin: 10px;
     position: relative;
 }
@@ -73,11 +84,15 @@ header {
     position: absolute;
     top: 100%;
     left: 0;
-    background: white;
+    background: #0d0d0d;
     border: 1px solid #eee;
     border-radius: 8px;
     min-width: 180px;
     padding: 6px 0;
+}
+
+.main_nav .nav-item a:hover {
+    color: #a855f7;
 }
 
 .nav-item:hover .dropdown {
@@ -88,18 +103,33 @@ header {
     display: block;
     padding: 10px 18px;
     text-decoration: none;
-    color: #111;
+    color: #aaa;
+    font-size: 15px;
 }
 
-    .dropdown a:hover {
-        background: #f5f5f5;
-    }
+.dropdown a:hover {
+    background: #222;
+    color: #a855f7;
+}
 
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    min-width: 180px;
+    padding: 6px 0;
+    z-index: 100;
+}
 
 .center {
-    background-color: lime;
+    background-color: #0d0d0d;
     margin-bottom: 5px;
     display: flex;
+    border-color: #2a2a2a;
 }
 
 main, aside {
@@ -107,26 +137,62 @@ main, aside {
 }
 
 main {
-    background-color: black;
+    background-color: #0d0d0d;
     flex: 4;
-    color: white;
-    padding: 5px 10px;
-    text-align: left
+    color: #e0e0e0;
+    padding: 24px;
+    text-align: left;
+}
+
+main h1, main h2, main h3 {
+    color: #f0f0f0;
+    font-weight: 500;
+}
+
+main a {
+    color: #a855f7;
+    text-decoration: none;
+    border-bottom: 1px solid #a855f744;
+}
+
+main a:hover {
+    color: #c084fc;
+    border-bottom-color: #c084fc;
+}
+
+main p {
+    color: #999;
+    line-height: 1.7;
 }
 
 aside {
-    background-color: gray;
+    background-color: #111;
     flex: 1;
-    padding: 5px;
+    padding: 16px;
     text-align: center;
+    color: #444;
+    border-right: 1px solid #2a2a2a;
+    font-size: 13px;
 }
 
 footer {
-    background-color: orange;
+    background-color: #111;
+    color: #444;
+    padding: 16px 28px;
+    font-size: 13px;
+    border-color: #2a2a2a;
+    border-top: 2px solid #a855f744;
 }
 
 .GameImage {
-    width: 200px
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+    transition: border-color 0.2s;
+}
+
+.GameImage:hover {
+    border-color: #a855f7;
 }
 
 .dice {
@@ -169,13 +235,14 @@ figcaption {
 
 .OpeningSentence {
     font-style: italic !important;
+    transform: skewX(-20deg);
 }
 
 .tooltip {
     position: relative;
     cursor: help;
-    border-bottom: 1px dotted black;
-    color: rgb(0,220,220);
+    border-bottom: 1px dotted #a855f7;
+    color: #a855f7;
 }
 
 .tooltip .tooltiptext {
@@ -196,6 +263,38 @@ figcaption {
 
 .tooltip:hover .tooltiptext {
         visibility: visible;
+}
+
+#goToGamesButton {
+    padding: 12px 24px;
+    background-color: #a855f7;
+    color: #fff;
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease, transform 0.1s ease; 
+}
+
+#goToGamesButton:hover {
+    background-color: #451275;
+    color: #fff; 
+}
+
+#goToGamesButton:active {
+    transform: scale(0.96); 
+}
+
+#content-wrapper {
+    display: flex;
+    align-items: center; 
+    gap: 100px; 
+}
+
+#avatar {
+    width: 100px; 
+    height: auto;
 }
 
 
