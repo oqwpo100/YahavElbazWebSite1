@@ -34,7 +34,12 @@ header {
     text-align: center;
     width: 100%;
     padding: 12px 0 8px;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
 }
 
 .header_date {
@@ -45,12 +50,15 @@ header {
 
 #DateLabel {
     flex: 1;
+    color: #a855f7;
 }
 
 #DayImage {
     flex: 3;
-    max-width: 80px;
+    max-width: 100px;
     height: auto;
+    position: absolute;
+    left: 10px;
 }
 
 .main_nav {
@@ -296,6 +304,7 @@ figcaption {
     width: 100px; 
     height: auto;
 }
+
 
 
 
