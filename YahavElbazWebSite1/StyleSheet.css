@@ -55,7 +55,7 @@ header {
 
 #DayImage {
     flex: 3;
-    max-width: 100px;
+    max-width: 50px;
     height: auto;
     position: absolute;
     left: 10px;
@@ -180,6 +180,10 @@ main a:hover {
 main p {
     color: #999;
     line-height: 1.7;
+}
+
+.PList {
+    color: #999
 }
 
 aside {

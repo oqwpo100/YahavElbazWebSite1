@@ -12,7 +12,7 @@
 
     <div id="qualifications">
       <h2>what makes my qualified?</h2>
-      <ul>
+      <ul class="PList">
         <li>I have been playing a lot of video game throughout my life.</li>
         <li>I have a passion for video games and I am always looking for new and interesting games to play.</li>
         <li>I studied game design at a high level.</li>
