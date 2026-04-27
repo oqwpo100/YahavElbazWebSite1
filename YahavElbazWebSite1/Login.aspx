@@ -13,6 +13,10 @@
      <input type="password" id="password" name="password">
      <input type="submit" value="Submit">
     </form>
+    <br><br>
+<form method="get" action="Registration.aspx">		
+    <input type="submit" value="to register"/>
+</form>
 
     <div runat="server" id="LoginResult"></div>
 </asp:Content>
