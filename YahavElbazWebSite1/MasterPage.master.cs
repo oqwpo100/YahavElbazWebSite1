@@ -13,11 +13,13 @@ public partial class MasterPage : System.Web.UI.MasterPage
         {
             LoginLogout.HRef = "Logout.aspx";
             LoginLogout.InnerText = "hello, " + Session["userName"] + " (Click to exit)";
+            Myself.Visible = true;
         }
         else
         {
             LoginLogout.HRef = "Login.aspx";
             LoginLogout.InnerText = "login";
+            Myself.Visible = false;
         }
 
         if (!IsPostBack)
@@ -32,6 +34,8 @@ public partial class MasterPage : System.Web.UI.MasterPage
             DayImage.ImageUrl = imagePath;
             DayImage.AlternateText = $"Image for {dayOfWeek}";
         }
+
+   
 
 
     }

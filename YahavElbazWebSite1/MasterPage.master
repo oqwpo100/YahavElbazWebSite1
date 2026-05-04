@@ -39,7 +39,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a href="../WhoAmI.aspx">Myself</a>
+				<a href="../WhoAmI.aspx" id="Myself" runat="server">Myself</a>
 			</li>
 
 			<li class="nav-item">
