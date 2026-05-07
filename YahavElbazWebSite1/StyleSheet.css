@@ -307,10 +307,31 @@ figcaption {
     transform: scale(0.96); 
 }
 
+input[type="submit"] {
+    padding: 6px 12px;
+    background-color: #30ff4c;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #008211;
+    color: #fff;
+}
+
+input[type="submit"]:active{
+    transform: scale(0.96); 
+}
+
 #content-wrapper {
     display: flex;
-    align-items: center; 
-    gap: 100px; 
+    align-items: center;
+    gap: 100px;
 }
 
 #avatar {
@@ -320,6 +341,18 @@ figcaption {
 
 [id$="LoginResult"] {
     color: red !important;
+}
+
+.GameLogo {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.GameTitel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 

@@ -15,7 +15,7 @@
     </form>
     <br><br>
 <form method="get" action="Registration.aspx">		
-    <input type="submit" value="to register"/>
+    <input id="goToGamesButton" type="submit" value="to register"/>
 </form>
 
     <div runat="server" id="LoginResult"></div>

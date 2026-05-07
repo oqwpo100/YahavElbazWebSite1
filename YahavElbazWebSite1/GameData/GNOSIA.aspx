@@ -5,7 +5,10 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
-        <h1>GNOSIA</h1>
+        <h1 class="GameTitel">
+            GNOSIA
+            <img src="../images/InPage/gnosia%20logo.jpeg" alt="Gnosia Logo" class="GameLogo" >
+        </h1>
     <hr/>
     <div>
         <h2>What is GNOSIA?</h2>

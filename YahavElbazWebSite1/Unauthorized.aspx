@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
     <h1>Unauthorized Access</h1>
     <p>You do not have permission to view this page. You must log in to the system to access this content.</p>
-    <button id="goToLoginButton" type="button" onclick="window.location.href='../Login.aspx'">
+    <button id="goToGamesButton" type="button" onclick="window.location.href='../Login.aspx'">
         Go to Login
     </button>
 </asp:Content>
