@@ -42,6 +42,10 @@ header {
     gap: 10px;
 }
 
+#SiteLogo{
+    width:50px;
+}
+
 .header_date {
     flex: 1;
     display: flex;
@@ -362,5 +366,6 @@ input[type="submit"]:active{
 .adminTable, .adminTable th, .adminTable td {
     border: 1px solid black;
 }
+
 
 

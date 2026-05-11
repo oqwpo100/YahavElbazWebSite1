@@ -18,7 +18,10 @@
 
 		<section class="header_top">	
 			<asp:Image ID="DayImage" runat="server"/>
-			<h1>Game Recommendations</h1>
+			<h1 class="GameTitel"> 
+				Game Recommendations
+                <img src="images/SITE%20LOGO.png" / alt ="site logo" id="SiteLogo">
+			</h1>
 		</section>
 		
 		<nav class="main_nav">
