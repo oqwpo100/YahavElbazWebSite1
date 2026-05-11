@@ -355,4 +355,12 @@ input[type="submit"]:active{
     justify-content: space-between;
 }
 
+.adminTable tr:nth-child(even) {
+    background-color: #a855f7;
+}
+
+.adminTable, .adminTable th, .adminTable td {
+    border: 1px solid black;
+}
+
 
