@@ -332,7 +332,7 @@ input[type="submit"]:active{
     display: flex;
     align-items: center;
     gap: 100px;
-}
+}  
 
 #avatar {
     width: 100px; 
