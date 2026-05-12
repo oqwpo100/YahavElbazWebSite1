@@ -23,8 +23,9 @@
             <li><strong>Intermission phase:</strong> Between day and night, players may receive new information or abilities that can help them in the next loop.</li>
         </ul>
         <p>The objective of the game is to survive and identify the Gnosia before they eliminate all the crew members. Unless your role says otherwise.</p>
-
-        <hr/>
+    </div>
+    <hr/>
+    <div>
         <p>For the steam page click <a href="https://store.steampowered.com/app/1608290/GNOSIA/" target="_blank">here</a></p>
         <p>For more information click <a href="https://playism.com/gnosia-special/" target="_blank">here</a></p>
     </div>

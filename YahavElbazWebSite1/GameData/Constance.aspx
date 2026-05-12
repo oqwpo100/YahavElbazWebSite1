@@ -5,7 +5,10 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
-    <h1>Constanc</h1>
+    <h1 class="GameTitel">
+        Constance
+        <img src="../images/InPage/constance-logo.jpg" alt="Constance logo" class="GameLogo" />
+    </h1>
     <hr/>
     <div>
         <h2>What is Constanc?</h2>
@@ -22,7 +25,9 @@
             <li><strong>Story and Atmosphere:</strong> The game combines hand-drawn visuals, a compelling narrative, and a unique soundtrack to create an immersive experience that reflects the protagonist's inner struggles.</li>
 
         </ul>
-        <hr/>
+    </div>
+    <hr/>
+    <div>
         <p>For the steem page click <a href="https://store.steampowered.com/app/2313700/Constance/" target="_blank">here</a></p>
         <p>For more information click <a href="https://btf.de/en/constance/" target="_blank">here</a></p>
     </div>

@@ -13,7 +13,7 @@
   
     <figure>
         <img src="images/GameImages/Rivals of Aether.jpg" alt="Main image of the game Rivals of Aether" class="GameImage"/>
-        <figcaption><a href="">Rivals of Aether</a></figcaption>
+        <figcaption><a href="GameData/RivalsOfAether.aspx">Rivals of Aether</a></figcaption>
     </figure>
 
     <figure>
