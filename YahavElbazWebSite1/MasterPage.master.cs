@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -35,9 +36,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
             DayImage.AlternateText = $"Image for {dayOfWeek}";
         }
 
-   
-
-
+        tip.Text = RndomizeTip();
     }
     private string GetImagePathForDay(string dayOfWeek)
     {
@@ -62,6 +61,22 @@ public partial class MasterPage : System.Web.UI.MasterPage
             default:
                 return path + "default.png"; // Fallback image
         }
+    }
+
+    private string RndomizeTip() 
+    {
+        Random rna = new Random();
+        
+        string[] tips = new string[]
+        {
+            "Don't say hop before you jump.",
+            "Playing computer games can develop cognitive abilities.",
+            "What you can do today, put off until tomorrow... Wait, that doesn't sound right.",
+            "Getting 7 to 8 hours of sleep is important (unless your name is Eviatar)",
+            "Did you know that eating a human is vegetarianism because vegetarians do not eat animals because they do not agree with being eaten, and therefore if the human agrees, he is considered vegetarian."
+        };
+        int index = rna.Next(tips.Length);
+        return tips[index];
     }
 
 }

@@ -20,7 +20,7 @@
 			<asp:Image ID="DayImage" runat="server"/>
 			<h1 class="GameTitel"> 
 				Game Recommendations
-                <img src="images/SITE%20LOGO.png" / alt ="site logo" id="SiteLogo">
+                <img src="/images/SITE%20LOGO.png" alt ="site logo" id="SiteLogo">
 			</h1>
 		</section>
 		
@@ -55,7 +55,8 @@
 		
 	<section class="center">
 		<aside>
-				תוכן אזור צד
+		    <asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
+            </asp:ContentPlaceHolder>
 		</aside>
 			
 		<main>
@@ -65,9 +66,7 @@
 	</section>
 			
 	<footer>
-			תוכן אזור תחתון
+			<asp:Label ID="tip" runat="server"></asp:Label>
 	</footer>
-	<asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
-    </asp:ContentPlaceHolder>
 </body>
 </html>
