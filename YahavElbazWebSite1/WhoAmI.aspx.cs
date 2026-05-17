@@ -13,6 +13,13 @@ public partial class Default2 : System.Web.UI.Page
         {
             Response.Redirect("Unauthorized.aspx");
         }
+
+        Control sideNav = Master.FindControl("SideNav");
+
+        if (sideNav != null)
+        {
+            sideNav.Visible = false;
+        }
     }
 
 }

@@ -18,9 +18,9 @@
         <p>The game is structured around a time-loop mechanic. Each "loop" is a short match (typically 10–15 minutes) where you must survive and identify the Gnosia. Because of the time loops, your role, the Gnosia's identity, and even the crew's roles change every round.</p>
         <p>There are 3 Phases to the game:</p>
         <ul class="PList">
-            <li class="InPageList"><strong>Day phase:</strong> During the day, players discuss and vote on who they believe the Gnosia are. The player with the most votes is put into "cold sleep."</li>
-            <li class="InPageList"><strong>Night phase:</strong> At night, the Gnosia secretly choose a victim to eliminate.</li>
-            <li class="InPageList"><strong>Intermission phase:</strong> Between day and night, players may receive new information or abilities that can help them in the next loop.</li>
+            <li class="InPageList"><strong>Day phase: </strong> During the day, players discuss and vote on who they believe the Gnosia are. The player with the most votes is put into "cold sleep."</li>
+            <li class="InPageList"><strong>Night phase: </strong> At night, the Gnosia secretly choose a victim to eliminate.</li>
+            <li class="InPageList"><strong>Intermission phase: </strong> Between day and night, players may receive new information or abilities that can help them in the next loop.</li>
         </ul>
         <p>The objective of the game is to survive and identify the Gnosia before they eliminate all the crew members. Unless your role says otherwise.</p>
     </div>

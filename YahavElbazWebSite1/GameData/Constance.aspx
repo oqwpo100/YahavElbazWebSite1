@@ -18,11 +18,11 @@
         <p>The game is structured around a paint-based movement system, allowing for fluid exploration and creative problem-solving. Players must navigate through the decaying inner-world, using their paintbrush to interact with the environment and overcome obstacles.</p>
         <p>Some of the core machnics are:</p>
         <ul class="PList">
-            <li><strong>Paint Mechanic:</strong> You can strike enemies to "refill" your paint meter, allowing you to transform into a living brush stroke to bypass hazards or extend combos.</li>
-            <li><strong>Decay and Creation:</strong> The game features a unique "Inner World" mechanic where the environment changes based on your mental state, forcing you to balance your aggressive "creative" side with defensive "grounding" techniques.</li>
-            <li><strong>Ability Progression:</strong> As you explore, you unlock new brush techniques that serve as both combat upgrades and keys to unlocking new areas of the map.</li>
-            <li><strong>Exploration and Discovery:</strong> The game encourages players to thoroughly explore the environment, uncovering hidden secrets and lore that deepen the narrative experience.</li>
-            <li><strong>Story and Atmosphere:</strong> The game combines hand-drawn visuals, a compelling narrative, and a unique soundtrack to create an immersive experience that reflects the protagonist's inner struggles.</li>
+            <li><strong>Paint Mechanic: </strong> You can strike enemies to "refill" your paint meter, allowing you to transform into a living brush stroke to bypass hazards or extend combos.</li>
+            <li><strong>Decay and Creation: </strong> The game features a unique "Inner World" mechanic where the environment changes based on your mental state, forcing you to balance your aggressive "creative" side with defensive "grounding" techniques.</li>
+            <li><strong>Ability Progression: </strong> As you explore, you unlock new brush techniques that serve as both combat upgrades and keys to unlocking new areas of the map.</li>
+            <li><strong>Exploration and Discovery: </strong> The game encourages players to thoroughly explore the environment, uncovering hidden secrets and lore that deepen the narrative experience.</li>
+            <li><strong>Story and Atmosphere: </strong> The game combines hand-drawn visuals, a compelling narrative, and a unique soundtrack to create an immersive experience that reflects the protagonist's inner struggles.</li>
 
         </ul>
     </div>

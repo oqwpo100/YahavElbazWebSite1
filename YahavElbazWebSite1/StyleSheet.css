@@ -229,10 +229,17 @@ footer {
 
 .dice {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 150px);
-    gap: 10px;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
 }
+
+
+    .dice figure {
+        margin: 0;
+        text-align: center;
+    }
 
     .dice figure:nth-child(1) {
         grid-column: 1;
