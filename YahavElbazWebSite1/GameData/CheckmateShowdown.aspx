@@ -41,8 +41,8 @@
         </div>
         <hr/>
         <div id="CheckmateShowdownLink">
-            <p>For the steam page click <a href="https://store.steampowered.com/app/1234567/Checkmate_Showdown/" target="_blank">here</a></p>
-            <p>For more information click <a href="https://checkmateshowdown.com/" target="_blank">here</a></p>
+            <p>For the steam page click <a href="https://store.steampowered.com/app/1803410/Checkmate_Showdown/" target="_blank">here</a></p>
+            <p>For more information click <a href="https://supercombo.gg/2023/09/15/checkmate-showdown-chess-meets-fists/" target="_blank">here</a></p>
         </div>
 </asp:Content>
 
