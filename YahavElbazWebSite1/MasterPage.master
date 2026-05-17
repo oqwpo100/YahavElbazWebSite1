@@ -54,7 +54,9 @@
 	</header>
 		
 	<section class="center">
-		<aside>
+		<aside id="SideNav" runat="server">
+			<h2>IN PAGE NAV</h2>
+			<hr />
 		    <asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
             </asp:ContentPlaceHolder>
 		</aside>

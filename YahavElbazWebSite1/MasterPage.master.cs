@@ -33,7 +33,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
             string imagePath = GetImagePathForDay(dayOfWeek);
 
             DayImage.ImageUrl = imagePath;
-            DayImage.AlternateText = $"Image for {dayOfWeek}";
+            DayImage.AlternateText = "Image for " + dayOfWeek;
         }
 
         tip.Text = RndomizeTip();
