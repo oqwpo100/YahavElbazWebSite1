@@ -28,7 +28,7 @@
 
     <figure>
         <img src="images/GameImages/Checkmate Showdown.jpg" alt="Main image of the game Checkmate Showdown" class="GameImage"/>
-        <figcaption><a href="">Checkmate Showdown</a></figcaption>
+        <figcaption><a href="../GameData/CheckmateShowdown.aspx">Checkmate Showdown</a></figcaption>
     </figure>
     </div>
 </asp:Content>
