@@ -17,7 +17,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
     <h1 class="GameTitel">
         Rivals of Aether
-        <img src="../images/InPage/RivalsOfAether_logo.png" alt="Rivals of Aether logo" class="GameLogo">
+        <img src="../images/InPage/logo/RivalsOfAether_logo.png" alt="Rivals of Aether logo" class="GameLogo">
     </h1>
     <hr/>
     <div>

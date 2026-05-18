@@ -18,7 +18,7 @@
 
     <figure>
         <img src="images/GameImages/Smack Talk.jpg" alt="Main image of the game Smack Talk" class="GameImage"/>
-        <figcaption><a href="">Smack Talk</a></figcaption>
+        <figcaption><a href="GameData/SmackTalk.aspx">Smack Talk</a></figcaption>
     </figure>
 
     <figure>
@@ -28,7 +28,7 @@
 
     <figure>
         <img src="images/GameImages/Checkmate Showdown.jpg" alt="Main image of the game Checkmate Showdown" class="GameImage"/>
-        <figcaption><a href="../GameData/CheckmateShowdown.aspx">Checkmate Showdown</a></figcaption>
+        <figcaption><a href="GameData/CheckmateShowdown.aspx">Checkmate Showdown</a></figcaption>
     </figure>
     </div>
 </asp:Content>

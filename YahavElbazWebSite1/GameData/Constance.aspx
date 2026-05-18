@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
     <h1 class="GameTitel">
         Constance
-        <img src="../images/InPage/constance-logo.jpg" alt="Constance logo" class="GameLogo" />
+        <img src="../images/InPage/logo/constance-logo.jpg" alt="Constance logo" class="GameLogo" />
     </h1>
     <hr/>
     <div>

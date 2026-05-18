@@ -7,7 +7,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
         <h1 class="GameTitel">
             GNOSIA
-            <img src="../images/InPage/gnosia%20logo.jpeg" alt="Gnosia Logo" class="GameLogo" >
+            <img src="../images/InPage/logo/gnosia%20logo.jpeg" alt="Gnosia Logo" class="GameLogo" >
         </h1>
     <hr/>
     <div>

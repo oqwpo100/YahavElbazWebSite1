@@ -16,7 +16,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
         <h1 class="GameTitel">
             Checkmate Showdown
-            <img src="../images/InPage/CheckmateShowdown_logo.jpg" alt="Checkmate Showdown logo" class="GameLogo" />
+            <img src="../images/InPage/logo/CheckmateShowdown_logo.jpg" alt="Checkmate Showdown logo" class="GameLogo" />
         </h1>
         <hr/>
         <div>

@@ -9,6 +9,12 @@ public partial class Unauthorized : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        Control sideNav = Master.FindControl("SideNav");
+
+        if (sideNav != null)
+        {
+            sideNav.Visible = false;
+        }
 
     }
 }

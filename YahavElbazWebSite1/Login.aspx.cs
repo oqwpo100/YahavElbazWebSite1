@@ -30,6 +30,13 @@ public partial class Login : System.Web.UI.Page
                 LoginResult.InnerText = "Username or password is incorrect. YOU FOOL FRIEZA!";
             }
         }
+
+        Control sideNav = Master.FindControl("SideNav");
+
+        if (sideNav != null)
+        {
+            sideNav.Visible = false;
+        }
     }
 
     //returns:
