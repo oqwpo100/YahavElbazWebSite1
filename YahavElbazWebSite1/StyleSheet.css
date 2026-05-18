@@ -433,3 +433,50 @@ input[type="submit"]:active {
     from { opacity: 0; transform: translateY(-5px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+.Game-pictures {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;                  
+    margin: 25px 0;
+    width: 100%;
+}
+
+.Game-pictures .GameImage {
+    flex: 1;                     
+    min-width: 0;             
+    height: auto;
+    aspect-ratio: 16 / 9;         
+    object-fit: cover;          
+    border-radius: 6px;
+    border: 1px solid rgba(127, 119, 221, 0.4); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.Game-pictures .GameImage:hover {
+    transform: scale(1.03);       
+    border-color: #a855f7;        
+}
+
+.random-game-btn {
+    background-color: #1a1a2e;
+    color: #a855f7;
+    border: 2px solid rgba(168, 85, 247, 0.6);
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+    .random-game-btn:hover {
+        background-color: #a855f7;
+        color: #ffffff;
+        box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
+        transform: scale(1.05);
+    }

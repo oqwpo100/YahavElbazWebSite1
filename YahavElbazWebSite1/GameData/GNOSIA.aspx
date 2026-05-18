@@ -23,7 +23,13 @@
             <li class="InPageList"><strong>Intermission phase: </strong> Between day and night, players may receive new information or abilities that can help them in the next loop.</li>
         </ul>
         <p>The objective of the game is to survive and identify the Gnosia before they eliminate all the crew members. Unless your role says otherwise.</p>
-    </div>
+    </div>         
+        <div class="Game-pictures">
+                <img src="../images/InPage/BottomPictures/gnosia/gnosia-gameplay1.png" alt="Gameplay 1" class="GameImage" />
+                <img src="../images/InPage/BottomPictures/gnosia/gnosia-gameplay2.png" alt="Gameplay 2" class="GameImage" />
+                <img src="../images/InPage/BottomPictures/gnosia/gnosia-gameplay3.png" alt="Gameplay 3" class="GameImage" />
+                <img src="../images/InPage/BottomPictures/gnosia/gnosia-gameplay4.png" alt="Gameplay 4" class="GameImage" />
+        </div>
     <hr/>
     <div id="GnosiaLink">
         <p>For the steam page click <a href="https://store.steampowered.com/app/1608290/GNOSIA/" target="_blank">here</a></p>

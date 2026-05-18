@@ -41,6 +41,12 @@
             <li><strong>Buddy System: </strong> You can also download "Buddies"—small cosmetic companions that follow your character around during the match.</li>
         </ul>
     </div>
+    <div class="Game-pictures">
+       <img src="../images/InPage/BottomPictures/rivals-of-aether/rivals-of-aether-gameplay1.png" alt="Gameplay 1" class="GameImage" />
+       <img src="../images/InPage/BottomPictures/rivals-of-aether/rivals-of-aether-gameplay2.png" alt="Gameplay 2" class="GameImage" />
+       <img src="../images/InPage/BottomPictures/rivals-of-aether/rivals-of-aether-gameplay3.png" alt="Gameplay 3" class="GameImage" />
+       <img src="../images/InPage/BottomPictures/rivals-of-aether/rivals-of-aether-gameplay4.png" alt="Gameplay 4" class="GameImage" />
+    </div>
     <hr/>
     <div id="RivalsOfAetherLink">
         <p>For the steam page click <a href="https://store.steampowered.com/app/383980/Rivals_of_Aether/" target="_blank">here</a></p>

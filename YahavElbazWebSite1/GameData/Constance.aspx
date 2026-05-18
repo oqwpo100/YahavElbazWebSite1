@@ -26,6 +26,12 @@
 
         </ul>
     </div>
+    <div class="Game-pictures">
+           <img src="../images/InPage/BottomPictures/constance/constance-gameplay1.png" alt="Gameplay 1" class="GameImage" />
+           <img src="../images/InPage/BottomPictures/constance/constance-gameplay2.png" alt="Gameplay 2" class="GameImage" />
+           <img src="../images/InPage/BottomPictures/constance/constance-gameplay3.png" alt="Gameplay 3" class="GameImage" />
+           <img src="../images/InPage/BottomPictures/constance/constance-gameplay4.png" alt="Gameplay 4" class="GameImage" />
+    </div>
     <hr/>
     <div id="ConstancLink">
         <p>For the steem page click <a href="https://store.steampowered.com/app/2313700/Constance/" target="_blank">here</a></p>

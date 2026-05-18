@@ -5,6 +5,8 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
+    <asp:Button ID="btnRandomGame" runat="server" Text="Random Game" CssClass="random-game-btn" OnClick="btnRandomGame_Click" /> 
+
     <div class="dice">
         <figure>
         <img src="images/GameImages/Constance.png" alt="Main image of the game constance" class="GameImage"/>

@@ -1,7 +1,6 @@
-﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head runat="server">
     <title>Game Recommendations</title>
@@ -11,64 +10,68 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <header>
-		<section class="header_date">
-			<asp:Label ID="DateLabel" runat="server"></asp:Label>
-		</section>
+    <form id="form1" runat="server">
 
-		<section class="header_top">	
-			<asp:Image ID="DayImage" runat="server"/>
-			<h1 class="GameTitel"> 
-				Game Recommendations
-                <img src="/images/SITE%20LOGO.png" alt ="site logo" id="SiteLogo">
-			</h1>
-		</section>
+        <header>
+		    <section class="header_date">
+			    <asp:Label ID="DateLabel" runat="server"></asp:Label>
+		    </section>
+
+		    <section class="header_top">	
+			    <asp:Image ID="DayImage" runat="server"/>
+			    <h1 class="GameTitel"> 
+				    Game Recommendations
+                    <img src="/images/SITE%20LOGO.png" alt ="site logo" id="SiteLogo">
+			    </h1>
+		    </section>
 		
-		<nav class="main_nav">
-			<ul class="nav-list">
-			<li class="nav-item">
-				<a href="../Default.aspx">Home page</a>
-			</li>
+		    <nav class="main_nav">
+			    <ul class="nav-list">
+			    <li class="nav-item">
+				    <a href="../Default.aspx">Home page</a>
+			    </li>
 
-			<li class="nav-item">
-				<a href="../TheGames.aspx">Games<span class="arrow">▾</span></a>
-				<div class="dropdown">
-					<a href="../GameData/Constance.aspx">Constance</a>
-					<a href="../GameData/RivalsOfAether.aspx">Rivals of Aether</a>
-					<a href="../GameData/SmackTalk.aspx">Smack Talk</a>
-					<a href="../GameData/GNOSIA.aspx">GNOSIA</a>
-					<a href="../GameData/CheckmateShowdown.aspx">Checkmate Showdown</a>
-				</div>
-			</li>
+			    <li class="nav-item">
+				    <a href="../TheGames.aspx">Games<span class="arrow">▾</span></a>
+				    <div class="dropdown">
+					    <a href="../GameData/Constance.aspx">Constance</a>
+					    <a href="../GameData/RivalsOfAether.aspx">Rivals of Aether</a>
+					    <a href="../GameData/SmackTalk.aspx">Smack Talk</a>
+					    <a href="../GameData/GNOSIA.aspx">GNOSIA</a>
+					    <a href="../GameData/CheckmateShowdown.aspx">Checkmate Showdown</a>
+				    </div>
+			    </li>
 
-			<li class="nav-item">
-				<a href="../WhoAmI.aspx" id="Myself" runat="server">Myself</a>
-			</li>
+			    <li class="nav-item">
+				    <a href="../WhoAmI.aspx" id="Myself" runat="server">Myself</a>
+			    </li>
 
-			<li class="nav-item">
-				<a class="login_logout" ID="LoginLogout" runat="server"></a>		
-			</li>
-			</ul>
+			    <li class="nav-item">
+				    <a class="login_logout" ID="LoginLogout" runat="server"></a>		
+			    </li>
+			    </ul>
 
-		</nav>
-	</header>
+		    </nav>
+	    </header>
 		
-	<section class="center">
-		<aside id="SideNav" runat="server">
-			<h2>IN PAGE NAV</h2>
-			<hr />
-		    <asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
-            </asp:ContentPlaceHolder>
-		</aside>
+	    <section class="center">
+		    <aside id="SideNav" runat="server">
+			    <h2>IN PAGE NAV</h2>
+			    <hr />
+		        <asp:ContentPlaceHolder id="ContentPlaceHolderScript" runat="server">
+                </asp:ContentPlaceHolder>
+		    </aside>
 			
-		<main>
-			<asp:ContentPlaceHolder id="ContentPlaceHolderMain" runat="server">
-			</asp:ContentPlaceHolder>
-		</main>
-	</section>
+		    <main>
+			    <asp:ContentPlaceHolder id="ContentPlaceHolderMain" runat="server">
+			    </asp:ContentPlaceHolder>
+		    </main>
+	    </section>
 			
-	<footer>
-			<asp:Label ID="tip" runat="server"></asp:Label>
-	</footer>
+	    <footer>
+			    <asp:Label ID="tip" runat="server"></asp:Label>
+	    </footer>
+
+    </form>
 </body>
 </html>

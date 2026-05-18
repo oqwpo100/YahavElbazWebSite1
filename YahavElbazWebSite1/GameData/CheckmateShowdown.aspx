@@ -39,6 +39,12 @@
             </ul>
             <p>The objective of the game depends on the mode — deliver checkmate on the chess board, or knock out your opponent's champion piece in the fighting arena.</p>
         </div>
+        <div class="Game-pictures">
+            <img src="../images/InPage/BottomPictures/checkmate-showdown/checkmate-showdown-gameplay1.png" alt="Gameplay 1" class="GameImage" />
+            <img src="../images/InPage/BottomPictures/checkmate-showdown/checkmate-showdown-gameplay2.png" alt="Gameplay 2" class="GameImage" />
+            <img src="../images/InPage/BottomPictures/checkmate-showdown/checkmate-showdown-gameplay3.png" alt="Gameplay 3" class="GameImage" />
+            <img src="../images/InPage/BottomPictures/checkmate-showdown/checkmate-showdown-gameplay4.png" alt="Gameplay 4" class="GameImage" />
+       </div>
         <hr/>
         <div id="CheckmateShowdownLink">
             <p>For the steam page click <a href="https://store.steampowered.com/app/1803410/Checkmate_Showdown/" target="_blank">here</a></p>

@@ -39,6 +39,12 @@
         <li><Strong>Unique Roster and Arenas:</Strong> Players choose from a diverse roster of fighters, each with their own distinct signature moves, mechanics, and special power-up phrases. Battles take place across various thematic maps that feature unique layouts and interactive elements.</li>
     </ul>
     </div>
+     <div class="Game-pictures">
+         <img src="../images/InPage/BottomPictures/Smack-Talk/smack-talk-gameplay1.png" alt="Gameplay 1" class="GameImage" />
+         <img src="../images/InPage/BottomPictures/Smack-Talk/smack-talk-gameplay2.png" alt="Gameplay 2" class="GameImage" />
+         <img src="../images/InPage/BottomPictures/Smack-Talk/smack-talk-gameplay3.png" alt="Gameplay 3" class="GameImage" />
+         <img src="../images/InPage/BottomPictures/Smack-Talk/smack-talk-gameplay4.png" alt="Gameplay 4" class="GameImage" />
+    </div>
     <hr />
     <div id="SmackTalkLink">
         <p>For the steam page click <a href="https://store.steampowered.com/app/4020490/Smack_Talk/" target="_blank">here</a></p>
