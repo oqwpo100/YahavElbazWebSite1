@@ -52,5 +52,6 @@
         <p>For the steam page click <a href="https://store.steampowered.com/app/383980/Rivals_of_Aether/" target="_blank">here</a></p>
         <p>For more information click <a href="https://rivalsofaether.com/" target="_blank">here</a></p>
     </div>
+
 </asp:Content>
 

@@ -474,9 +474,60 @@ input[type="submit"]:active {
     margin: 10px 0;
 }
 
-    .random-game-btn:hover {
-        background-color: #a855f7;
-        color: #ffffff;
-        box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
-        transform: scale(1.05);
-    }
+.random-game-btn:hover {
+    background-color: #a855f7;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
+    transform: scale(1.05);
+}
+
+.comparison-table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 30px 0;
+  background: #13131a;
+  border: 1px solid #2d2b3d; 
+  border-radius: 12px; 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 20px rgba(157, 78, 221, 0.05); 
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  text-align: left;
+  min-width: 600px;
+}
+
+.comparison-table th {
+  background-color: #1c1b26;
+  color: #ffffff;
+  padding: 16px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  border-bottom: 3px solid #9d4edd;
+}
+
+.comparison-table td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #222130;
+  color: #c5c5d2; 
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+.comparison-table td.feature-name {
+  font-weight: 600;
+  color: #b79ced;
+  background-color: #161520;
+  width: 25%;
+}
+
+.comparison-table tbody tr:nth-child(even) {
+  background-color: #171622;
+}
+
+.comparison-table tbody tr:hover {
+  background-color: #1f1d2b;
+  transition: background-color 0.2s ease;
+}
