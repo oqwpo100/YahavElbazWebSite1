@@ -8,6 +8,7 @@
   
   <div id="text-section">
     <h1>Who Am I?</h1>
+      <hr />
     <p>HI, my name is Yahav Elbaz. I am a student in Israel and I am learning computer science.</p>
 
     <div id="qualifications">
