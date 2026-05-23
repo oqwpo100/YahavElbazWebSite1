@@ -16,7 +16,7 @@
     <br><br>
 
     <button id="goToGamesButton" type="button" onclick="window.location.href='../Registration.aspx'">
-    Go to The Games
+    Registration
     </button> 
 
     <div runat="server" id="LoginResult"></div>
