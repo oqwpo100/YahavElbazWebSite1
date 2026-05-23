@@ -10,15 +10,18 @@ public partial class MasterPage : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if ((bool)Session["isLoggedIn"])
+        bool isLoggedIn = Session["isLoggedIn"] != null && (bool)Session["isLoggedIn"];
+
+        if (isLoggedIn)
         {
-            LoginLogout.HRef = "Logout.aspx";
+            LoginLogout.HRef = "~/Logout.aspx";  
             LoginLogout.InnerText = "hello, " + Session["userName"] + " (Click to exit)";
+            Myself.HRef = "~/WhoAmI.aspx";     
             Myself.Visible = true;
         }
         else
         {
-            LoginLogout.HRef = "Login.aspx";
+            LoginLogout.HRef = "~/Login.aspx";  
             LoginLogout.InnerText = "login";
             Myself.Visible = false;
         }

@@ -6,17 +6,18 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
 
-    <form runat="server" method="post" action="Login.aspx">
+    
      <label for="userName">user name:</label><br>
      <input type="text" id="userName" name="userName"><br>
      <label for="password">password:</label><br>
      <input type="password" id="password" name="password">
      <input type="submit" value="Submit">
-    </form>
+
     <br><br>
-<form method="get" action="Registration.aspx">		
-    <input id="goToGamesButton" type="submit" value="to register"/>
-</form>
+
+    <button id="goToGamesButton" type="button" onclick="window.location.href='../Registration.aspx'">
+    Go to The Games
+    </button> 
 
     <div runat="server" id="LoginResult"></div>
 </asp:Content>

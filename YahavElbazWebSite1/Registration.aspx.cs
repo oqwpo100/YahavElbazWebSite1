@@ -47,7 +47,7 @@ public partial class Registration : System.Web.UI.Page
 
         if (fname.Length < 2)
         {
-            RegistrationResult.InnerText += "שם פרטי חייב להכיל לפחות שני תווים. ";
+            RegistrationResult.InnerText += "First name must contain at least two characters. ";
             return false;
         }
 
@@ -210,7 +210,7 @@ public partial class Registration : System.Web.UI.Page
 
         if (dt.Rows.Count > 0)
         {
-            RegistrationResult.InnerText = "שם משתמש קיים במערכת. אנא בחר.י שם אחר.";
+            RegistrationResult.InnerText = "Username already exists in the system. Please choose another name.";
             return false;
         }
 

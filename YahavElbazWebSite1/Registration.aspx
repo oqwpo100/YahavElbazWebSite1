@@ -5,7 +5,7 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMain" Runat="Server">
-    <form runat="server" action="Registration.aspx" method="post">		
+   		
 
 	<label for="firstName">first name:</label><br>
 	<input runat="server" type="text" id="firstName" name="firstName"/><br/>
@@ -39,7 +39,6 @@
 	<label for="approval">I agree to the website's terms and conditions:</label><br>
 	<input runat="server" type="checkbox" id = "approval" name = "approval" value="approve"/>I agree<br/>
 	<input type="submit" value="Submit">	
-</form>
 
 <div runat="server" id="RegistrationResult"></div>
 
