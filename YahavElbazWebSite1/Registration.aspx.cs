@@ -179,7 +179,16 @@ public partial class Registration : System.Web.UI.Page
 
         string emailnum = mail.Value;
         int atIndex = emailnum.IndexOf('@');
-        int dotIndex = emailnum.IndexOf('.');
+        int dotIndex = -1;
+
+        for (int i = 0; i < emailnum.Length; i++)
+        {
+            if (emailnum[i] == '.')
+            {
+                dotIndex = i;
+            }
+      
+        }
 
         if (atIndex == -1 || dotIndex == -1 || dotIndex < atIndex) 
         {
